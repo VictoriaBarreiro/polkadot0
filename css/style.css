@@ -18,6 +18,27 @@ header .spotify {
   width: 30%;
   position: fixed; }
 
+h2 {
+  color: #87582c;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px !important;
+  text-align: center; }
+
+#sectionNuevo ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+  #sectionNuevo ul li {
+    margin: 10px;
+    padding: 5px;
+    width: 50%; }
+    #sectionNuevo ul li .img {
+      display: inline-block;
+      vertical-align: text-bottom;
+      text-align: center; }
+
 * {
   margin: 0%;
   padding: 0%; }
