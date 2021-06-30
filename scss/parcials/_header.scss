@@ -1,0 +1,25 @@
+header{
+    .navbar{
+        background-color: rgb(236, 217, 198);
+
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Roboto Mono', monospace;
+        width: 100%;
+    }
+
+    h1{
+        margin: 10px;
+        padding: 10px;
+        font-family: 'Bebas Neue', cursive;;
+        font-size: 70px;
+        text-align: center;
+        color: rgb(58, 38, 19);
+    }
+    .spotify{
+        margin: 10px 10px 10px 900px;
+        padding: 5px;
+        width: 30%;
+        position: fixed;
+    }
+
+}

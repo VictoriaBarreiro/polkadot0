@@ -1,3 +1,23 @@
+header .navbar {
+  background-color: #ecd9c6;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto Mono', monospace;
+  width: 100%; }
+
+header h1 {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #3a2613; }
+
+header .spotify {
+  margin: 10px 10px 10px 900px;
+  padding: 5px;
+  width: 30%;
+  position: fixed; }
+
 * {
   margin: 0%;
   padding: 0%; }
