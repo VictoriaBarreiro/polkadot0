@@ -1,3 +1,5 @@
+@import "../base/extends";
+
 h2{
     color: rgb(135, 88, 44);
     margin: 10px;
@@ -10,33 +12,36 @@ h2{
 
 #nuevoindex{
   ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    width: 45%;
-    justify-content: center;
-    vertical-align: center;
+    @extend %ulimg;
+   
+
   .newImg{
-    background-color: rgb(230, 203, 178);
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Roboto Mono', monospace;
+
+   @extend %liimg; 
     
-    
-    & :hover {
-      width: 80%;
-      position: relative;
-      left: 100px;
-     
-    }
     .img{
-      width: 40%;
+      @extend %img;
      
     }
   }
 
 }
+}    
+
+#saleindex{
+  ul{
+    @extend %ulimg;
+   
+
+  .newImg{
+
+   @extend %liimg; 
     
+    .img{
+      @extend %img;
+     
+    }
+  }
+
 }
+}  
