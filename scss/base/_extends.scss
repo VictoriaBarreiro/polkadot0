@@ -22,3 +22,21 @@
     height: 450px;
          
     }
+
+%flexlogo{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+%flexnavl {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:flex-end;
+    text-decoration: none;
+    list-style: none;
+    
+}
