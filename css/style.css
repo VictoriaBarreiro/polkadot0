@@ -18,12 +18,12 @@ header .spotify {
   width: 30%;
   position: fixed; }
 
-#nuevoindex ul, #saleindex ul {
+#nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap; }
 
-#nuevoindex ul .newImg, #saleindex ul .newImg {
+#nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
   background-color: #e6cbb2;
   margin: 20px;
   padding: 10px;
@@ -33,7 +33,7 @@ header .spotify {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace; }
 
-#nuevoindex ul .newImg .img, #saleindex ul .newImg .img {
+#nuevoindex ul .newImg .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
   width: 380px;
   height: 450px; }
 
@@ -59,12 +59,12 @@ h2 {
   font-size: 60px;
   text-align: center; }
 
-#nuevoindex ul, #saleindex ul {
+#nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap; }
 
-#nuevoindex ul .newImg, #saleindex ul .newImg {
+#nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
   background-color: #e6cbb2;
   margin: 20px;
   padding: 10px;
@@ -74,7 +74,7 @@ h2 {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace; }
 
-#nuevoindex ul .newImg .img, #saleindex ul .newImg .img {
+#nuevoindex ul .newImg .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
   width: 380px;
   height: 450px; }
 

@@ -45,3 +45,57 @@ h2{
 
 }
 }  
+#vintage{
+  ul{
+    @extend %ulimg;
+   
+
+  .newImg{
+
+   @extend %liimg; 
+    
+    .img{
+      @extend %img;
+     
+    }
+  }
+
+}
+
+}
+#loultimo{
+  ul{
+    @extend %ulimg;
+   
+
+  .newImg{
+
+   @extend %liimg; 
+    
+    .img{
+      @extend %img;
+     
+    }
+  }
+
+  }
+
+}
+#tiendacompleta{
+  ul{
+    @extend %ulimg;
+   
+
+  .newImg{
+
+   @extend %liimg; 
+    
+    .img{
+      @extend %img;
+     
+    }
+  }
+  
+  }
+
+}
