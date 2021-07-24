@@ -19,20 +19,22 @@ h2{
 #nuevoindex{
   ul{
     @extend %ulimg;
-   
 
   .newImg{
+ 
+    @extend %liimg; 
 
-   @extend %liimg; 
+  }
     
     .img{
-      @extend %img;
      
+      @extend %img;
+
     }
   }
 
 }
-}    
+    
 /*estilos segmento sale de mi index*/
 #saleindex{
   ul{
@@ -152,15 +154,87 @@ h2{
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace;
   background-color: rgb(230, 203, 178);
+  font-size: 20px;
   border-radius: 15px;
   margin-left: 350px;
   width: 500px; 
   @media only screen and (max-width: 600px) {
   margin: 15px;
   width: 350px;
+  font-size: 12px;
   }
   @media only screen and (min-width: 601px) and (max-width:1024px){
     margin: 100px;
     width: 400px;
+    font-size: 18px;
   }
+}
+/*estilos para seccion sobre nosotros*/
+#about{
+  div{
+    background-color:rgb(230, 203, 178);
+    width: 800px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+    left: 50px;
+    @media only screen and (max-width: 600px) {
+      position: relative;
+      left: 5px;
+      width: 350px;
+      margin: 5px;
+      
+      }
+    @media only screen and (min-width: 601px) and (max-width:1024px){
+        position: relative;
+        left: 10px;
+        margin: 20px;
+        width: 700px;
+        
+    }
+    
+    p{
+      margin: 10px;
+      font-family: 'Bebas Neue', cursive;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 20px;
+      text-align: center;
+      @media only screen and (max-width: 600px) {
+        font-size: 12px;
+        
+        }
+      @media only screen and (min-width: 601px) and (max-width:1024px){
+         font-size: 18px;
+    }
+
+    }
+    img{
+      margin: 10px;
+      width: 400px;
+      height: 300px;
+      position:relative;
+      left: 200px;
+      border-radius: 15px;
+      @media only screen and (max-width: 600px) {
+        position: relative;
+        left: 45px;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        padding: 10px;
+        
+        }
+      @media only screen and (min-width: 601px) and (max-width:1024px){
+          position: relative;
+          left: 40px;
+          margin: 20px;
+          width: 400px;
+          height: 300px;
+    }
+    
+  }
+}
 }

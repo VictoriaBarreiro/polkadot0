@@ -35,7 +35,9 @@ header {
 #nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%; }
 
 #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
   background-color: #e6cbb2;
@@ -46,10 +48,36 @@ header {
   text-align: center;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace; }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
+      margin: 20px;
+      padding: 10px;
+      width: 350px;
+      height: 500px; } }
+  @media only screen and (max-width: 600px) {
+    #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
+      margin: 5px;
+      padding: 5px;
+      width: 400px;
+      height: 400px; } }
 
-#nuevoindex ul .newImg .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
+#nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
   width: 380px;
-  height: 450px; }
+  height: 450px;
+  margin: 20px;
+  padding: 10px; }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
+      margin: 20px;
+      padding: 10px;
+      width: 400px;
+      height: 500px; } }
+  @media only screen and (max-width: 600px) {
+    #nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
+      margin: 5px;
+      padding: 5px;
+      width: 300px;
+      height: 350px; } }
 
 footer .logoPosition {
   display: flex;
@@ -119,22 +147,85 @@ h2 {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace;
   background-color: #e6cbb2;
+  font-size: 20px;
   border-radius: 15px;
   margin-left: 350px;
   width: 500px; }
   @media only screen and (max-width: 600px) {
     .tableStyle {
       margin: 15px;
-      width: 350px; } }
+      width: 350px;
+      font-size: 12px; } }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .tableStyle {
       margin: 100px;
-      width: 400px; } }
+      width: 400px;
+      font-size: 18px; } }
+
+/*estilos para seccion sobre nosotros*/
+#about div {
+  background-color: #e6cbb2;
+  width: 800px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  position: relative;
+  left: 50px; }
+  @media only screen and (max-width: 600px) {
+    #about div {
+      position: relative;
+      left: 5px;
+      width: 350px;
+      margin: 5px; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #about div {
+      position: relative;
+      left: 10px;
+      margin: 20px;
+      width: 700px; } }
+  #about div p {
+    margin: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-align: center; }
+    @media only screen and (max-width: 600px) {
+      #about div p {
+        font-size: 12px; } }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      #about div p {
+        font-size: 18px; } }
+  #about div img {
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    border-radius: 15px; }
+    @media only screen and (max-width: 600px) {
+      #about div img {
+        position: relative;
+        left: 45px;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        padding: 10px; } }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      #about div img {
+        position: relative;
+        left: 40px;
+        margin: 20px;
+        width: 400px;
+        height: 300px; } }
 
 #nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%; }
 
 #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
   background-color: #e6cbb2;
@@ -145,10 +236,36 @@ h2 {
   text-align: center;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace; }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
+      margin: 20px;
+      padding: 10px;
+      width: 350px;
+      height: 500px; } }
+  @media only screen and (max-width: 600px) {
+    #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
+      margin: 5px;
+      padding: 5px;
+      width: 400px;
+      height: 400px; } }
 
-#nuevoindex ul .newImg .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
+#nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
   width: 380px;
-  height: 450px; }
+  height: 450px;
+  margin: 20px;
+  padding: 10px; }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
+      margin: 20px;
+      padding: 10px;
+      width: 400px;
+      height: 500px; } }
+  @media only screen and (max-width: 600px) {
+    #nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
+      margin: 5px;
+      padding: 5px;
+      width: 300px;
+      height: 350px; } }
 
 footer .logoPosition {
   display: flex;
@@ -173,16 +290,22 @@ footer .logo {
   @media only screen and (max-width: 600px) {
     footer .logo {
       width: 35%;
-      font-size: 12px; } }
+      font-size: 10px; } }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     footer .logo {
       width: 55%;
-      font-size: 15px; } }
+      font-size: 12px; } }
 
 footer .logoPosition {
   font-size: 20px;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Roboto Mono', monospace; }
+  @media only screen and (max-width: 600px) {
+    footer .logoPosition {
+      font-size: 15px; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    footer .logoPosition {
+      font-size: 15px; } }
 
 footer ul {
   list-style: none; }
@@ -194,6 +317,17 @@ footer .styleLink {
   font-family: 'Roboto Mono', monospace;
   margin: 10px;
   padding: 5px; }
+  @media only screen and (max-width: 600px) {
+    footer .styleLink {
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      list-style: none;
+      margin: 5px; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    footer .styleLink {
+      font-size: 15px; } }
 
 * {
   margin: 0%;

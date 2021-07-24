@@ -10,13 +10,13 @@ footer{
         justify-content: center;
         @media only screen and (max-width: 600px) {
             width: 35%;
-            font-size: 12px;
+            font-size: 10px;
             
         }
 
         @media only screen and (min-width: 601px) and (max-width:1024px){
             width: 55%;
-            font-size: 15px;
+            font-size: 12px;
         }
 
           
@@ -26,6 +26,14 @@ footer{
         font-size: $textfsz;
         font-family: 'Bebas Neue', cursive;
         font-family: 'Roboto Mono', monospace;
+        @media only screen and (max-width: 600px) {
+            font-size: 15px;
+            
+        }
+
+        @media only screen and (min-width: 601px) and (max-width:1024px){ 
+            font-size: 15px;
+        }
   
         
     }
@@ -42,7 +50,20 @@ footer{
         font-family: 'Roboto Mono', monospace;
         margin: 10px;
         padding: 5px;
+        @media only screen and (max-width: 600px) {
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            list-style: none;
+            margin: 5px;
+            
+            
+        }
 
+        @media only screen and (min-width: 601px) and (max-width:1024px){ 
+            font-size: 15px;
+        }
        
         
     }

@@ -26,6 +26,7 @@ header{
         padding: 5px;
         width: 30%;
         position: fixed;
+        
         @media only screen and (min-width: 601px) and (max-width:1024px){
             display: none;}
         @media only screen and (max-width: 600px) {
