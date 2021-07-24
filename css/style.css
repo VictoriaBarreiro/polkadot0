@@ -1,22 +1,36 @@
-header .navbar {
-  background-color: #ecd9c6;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace;
-  width: 100%; }
-
-header h1 {
-  margin: 10px;
-  padding: 10px;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 70px;
-  text-align: center;
-  color: #3a2613; }
-
-header .spotify {
-  margin: 10px 10px 10px 900px;
-  padding: 5px;
-  width: 30%;
-  position: fixed; }
+header {
+  /*estilos de mi navbar*/
+  /*estilos para todos los titulos h1 de la pag*/
+  /* estilos para box de mi lista de spotify*/ }
+  header .navbar {
+    background-color: #ecd9c6;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%; }
+  header h1 {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #3a2613; }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      header h1 {
+        font-size: 50px; } }
+    @media only screen and (max-width: 600px) {
+      header h1 {
+        font-size: 40px; } }
+  header .spotify {
+    margin: 10px 10px 10px 900px;
+    padding: 5px;
+    width: 30%;
+    position: fixed; }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      header .spotify {
+        display: none; } }
+    @media only screen and (max-width: 600px) {
+      header .spotify {
+        display: none; } }
 
 #nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
@@ -51,6 +65,7 @@ footer .styleLink {
   text-decoration: none;
   list-style: none; }
 
+/*estilos para los titulos h2 de todas mis secciones y sus media queries*/
 h2 {
   color: #87582c;
   margin: 10px;
@@ -58,13 +73,63 @@ h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: 60px;
   text-align: center; }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    h2 {
+      font-size: 45px; } }
+  @media only screen and (max-width: 600px) {
+    h2 {
+      font-size: 30px; } }
 
+/*estilos para segmento new in de mi index */
+/*estilos segmento sale de mi index*/
+/* estilos para seccion vintageSale */
+/*porpiedades para seccion nuevo*/
+/*estilos para seccion tienda online*/
+/* estilos para tiendas fisicas*/
 .placesList {
   list-style: none;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  margin: 10px; }
+  .placesList .maps {
+    position: relative;
+    left: 250px;
+    border-radius: 40px; }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      .placesList .maps {
+        width: 70%;
+        margin: 10px;
+        position: relative;
+        left: 150px; } }
+    @media only screen and (max-width: 600px) {
+      .placesList .maps {
+        width: 65%;
+        margin: 5px;
+        position: relative;
+        left: 10px; } }
+
+/*estilos para tabla de talles*/
+.tableStyle {
+  display: grid;
+  grid-area: "boxTitle1 boxTitle2 boxTitle3 boxTitle4 boxTitle5"  "boxTitle6 box1 box2 box3 box4"  "boxTitle7 box5 box6 box7 box8" "boxTitle8 box9 box10 box11 box12" "boxTitle9 box13 box14 box15 box16" "boxTitle10 box17 box18 box19 box20";
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  padding: 10px;
+  border: solid 1px;
+  padding: 50px;
+  margin: 10px auto;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #e6cbb2;
+  border-radius: 15px;
+  margin-left: 350px;
+  width: 500px; }
+  @media only screen and (max-width: 600px) {
+    .tableStyle {
+      margin: 15px;
+      width: 350px; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .tableStyle {
+      margin: 100px;
+      width: 400px; } }
 
 #nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
@@ -99,6 +164,7 @@ footer .styleLink {
   text-decoration: none;
   list-style: none; }
 
+/*estilos para mi footer*/
 footer .logo {
   margin: 50px 40px;
   text-decoration: none;
@@ -108,7 +174,7 @@ footer .logo {
     footer .logo {
       width: 35%;
       font-size: 12px; } }
-  @media only screen and (min-width: 601px) and (max-width: 1024) {
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
     footer .logo {
       width: 55%;
       font-size: 15px; } }

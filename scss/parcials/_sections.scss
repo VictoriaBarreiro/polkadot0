@@ -1,4 +1,5 @@
 @import "../base/extends";
+/*estilos para los titulos h2 de todas mis secciones y sus media queries*/
 
 h2{
     color: rgb(135, 88, 44);
@@ -8,8 +9,13 @@ h2{
     font-size: 60px;
     text-align: center;
 
-}
+    @media only screen and (min-width: 601px) and (max-width:1024px){
+      font-size: 45px;}
+    @media only screen and (max-width: 600px) {
+    font-size: 30px; }
 
+}
+/*estilos para segmento new in de mi index */
 #nuevoindex{
   ul{
     @extend %ulimg;
@@ -27,7 +33,7 @@ h2{
 
 }
 }    
-
+/*estilos segmento sale de mi index*/
 #saleindex{
   ul{
     @extend %ulimg;
@@ -45,6 +51,7 @@ h2{
 
 }
 }  
+/* estilos para seccion vintageSale */
 #vintage{
   ul{
     @extend %ulimg;
@@ -63,6 +70,7 @@ h2{
 }
 
 }
+/*porpiedades para seccion nuevo*/
 #loultimo{
   ul{
     @extend %ulimg;
@@ -81,6 +89,7 @@ h2{
   }
 
 }
+/*estilos para seccion tienda online*/
 #tiendacompleta{
   ul{
     @extend %ulimg;
@@ -99,12 +108,59 @@ h2{
   }
 
 }
+/* estilos para tiendas fisicas*/
 .placesList{
   list-style: none;
-  margin:20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin:10px;
+
+  .maps{
+    position: relative;
+    left: 250px;
+    border-radius: 40px;
+    @media only screen and (min-width: 601px) and (max-width:1024px){
+      width: 70%;
+      margin: 10px;
+      position: relative;
+      left: 150px;
+    }
+     
+  @media only screen and (max-width: 600px) {
+      width: 65%; 
+      margin: 5px;
+      position: relative;
+      left: 10px;
+    }
+  }
   
-  
+}
+/*estilos para tabla de talles*/
+.tableStyle {
+  display: grid;
+  grid-area: 
+  "boxTitle1 boxTitle2 boxTitle3 boxTitle4 boxTitle5" 
+  "boxTitle6 box1 box2 box3 box4" 
+  "boxTitle7 box5 box6 box7 box8"
+  "boxTitle8 box9 box10 box11 box12"
+  "boxTitle9 box13 box14 box15 box16"
+  "boxTitle10 box17 box18 box19 box20";
+  grid-template-columns:3fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  padding: 10px;
+  border: solid 1px;
+  padding: 50px;
+  margin: 10px auto;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(230, 203, 178);
+  border-radius: 15px;
+  margin-left: 350px;
+  width: 500px; 
+  @media only screen and (max-width: 600px) {
+  margin: 15px;
+  width: 350px;
+  }
+  @media only screen and (min-width: 601px) and (max-width:1024px){
+    margin: 100px;
+    width: 400px;
+  }
 }
