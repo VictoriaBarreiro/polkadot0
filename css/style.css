@@ -3,14 +3,14 @@ header {
   /*estilos para todos los titulos h1 de la pag*/
   /* estilos para box de mi lista de spotify*/ }
   header .navbar {
-    background-color: #ecd9c6;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Roboto Mono', monospace;
+    background-color: #e6cbb2;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto Mono", monospace;
     width: 100%; }
   header h1 {
     margin: 10px;
     padding: 10px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 70px;
     text-align: center;
     color: #3a2613; }
@@ -21,9 +21,9 @@ header {
       header h1 {
         font-size: 40px; } }
   header .spotify {
-    margin: 10px 10px 10px 900px;
+    margin: 10px 10px 10px 1000px;
     padding: 5px;
-    width: 30%;
+    width: 20%;
     position: fixed; }
     @media only screen and (min-width: 601px) and (max-width: 1024px) {
       header .spotify {
@@ -36,18 +36,19 @@ header {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0%;
-  padding: 0%; }
+  margin: 10px;
+  padding: 5px; }
 
 #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
   background-color: #e6cbb2;
   margin: 20px;
   padding: 10px;
-  width: 400px;
-  height: 500px;
+  width: 435px;
+  height: 525px;
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace; }
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 15px; }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
       margin: 20px;
@@ -65,7 +66,8 @@ header {
   width: 380px;
   height: 450px;
   margin: 20px;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 15px; }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     #nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
       margin: 20px;
@@ -98,7 +100,7 @@ h2 {
   color: #87582c;
   margin: 10px;
   padding: 10px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 60px;
   text-align: center; }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -144,8 +146,8 @@ h2 {
   border: solid 1px;
   padding: 50px;
   margin: 10px auto;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto Mono", monospace;
   background-color: #e6cbb2;
   font-size: 20px;
   border-radius: 15px;
@@ -187,8 +189,8 @@ h2 {
       width: 700px; } }
   #about div p {
     margin: 10px;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto Mono", monospace;
     font-size: 20px;
     text-align: center; }
     @media only screen and (max-width: 600px) {
@@ -220,22 +222,59 @@ h2 {
         width: 400px;
         height: 300px; } }
 
+/* estilos para la seccion contactanos*/
+#formulario {
+  margin: 20px; }
+  #formulario form {
+    background-color: #e6cbb2;
+    margin: 10px;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px; }
+    @media only screen and (max-width: 600px) {
+      #formulario form {
+        font-size: 12px; } }
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      #formulario form {
+        font-size: 12px; } }
+    #formulario form .bc {
+      background-color: #faebd7; }
+    #formulario form .imput {
+      width: 70px;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #e6cbb2; }
+      @media only screen and (max-width: 600px) {
+        #formulario form .imput {
+          font-size: 12px; } }
+      @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        #formulario form .imput {
+          font-size: 12px; } }
+
 #nuevoindex ul, #saleindex ul, #vintage ul, #loultimo ul, #tiendacompleta ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0%;
-  padding: 0%; }
+  margin: 10px;
+  padding: 5px; }
 
 #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
   background-color: #e6cbb2;
   margin: 20px;
   padding: 10px;
-  width: 400px;
-  height: 500px;
+  width: 435px;
+  height: 525px;
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace; }
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 15px; }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     #nuevoindex ul .newImg, #saleindex ul .newImg, #vintage ul .newImg, #loultimo ul .newImg, #tiendacompleta ul .newImg {
       margin: 20px;
@@ -253,7 +292,8 @@ h2 {
   width: 380px;
   height: 450px;
   margin: 20px;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 15px; }
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     #nuevoindex ul .img, #saleindex ul .newImg .img, #vintage ul .newImg .img, #loultimo ul .newImg .img, #tiendacompleta ul .newImg .img {
       margin: 20px;
@@ -298,8 +338,8 @@ footer .logo {
 
 footer .logoPosition {
   font-size: 20px;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace; }
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto Mono", monospace; }
   @media only screen and (max-width: 600px) {
     footer .logoPosition {
       font-size: 15px; } }
@@ -308,13 +348,15 @@ footer .logoPosition {
       font-size: 15px; } }
 
 footer ul {
-  list-style: none; }
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
 
 footer .styleLink {
   color: #3a2613;
   font-size: 20px;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto Mono", monospace;
   margin: 10px;
   padding: 5px; }
   @media only screen and (max-width: 600px) {

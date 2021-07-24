@@ -24,8 +24,8 @@ footer{
     .logoPosition{
         @extend %flexlogo;
         font-size: $textfsz;
-        font-family: 'Bebas Neue', cursive;
-        font-family: 'Roboto Mono', monospace;
+        font-family: $fontf1;
+        font-family: $fontf2;
         @media only screen and (max-width: 600px) {
             font-size: 15px;
             
@@ -40,16 +40,19 @@ footer{
     
     ul{
         list-style: none;
+        margin: 0px;
+        padding: 0px;
     
     }
     .styleLink {
         @extend %flexnavl;
         color: $textc;
         font-size: $textfsz;
-        font-family: 'Bebas Neue', cursive;
-        font-family: 'Roboto Mono', monospace;
+        font-family: $fontf1;
+        font-family: $fontf2;
         margin: 10px;
         padding: 5px;
+
         @media only screen and (max-width: 600px) {
             font-size: 12px;
             display: flex;
@@ -60,11 +63,11 @@ footer{
             
             
         }
-
+    
         @media only screen and (min-width: 601px) and (max-width:1024px){ 
             font-size: 15px;
         }
-       
+
         
     }
 }

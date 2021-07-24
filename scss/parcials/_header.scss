@@ -1,20 +1,21 @@
+@import "../base/variables";
 header{
     /*estilos de mi navbar*/
     .navbar{
-        background-color: rgb(236, 217, 198);
+        background-color: $bcsec;
 
-        font-family: 'Bebas Neue', cursive;
-        font-family: 'Roboto Mono', monospace;
+        font-family: $fontf1;
+        font-family: $fontf2;
         width: 100%;
     }
  /*estilos para todos los titulos h1 de la pag*/
     h1{
         margin: 10px;
         padding: 10px;
-        font-family: 'Bebas Neue', cursive;;
+        font-family: $fontf1;
         font-size: 70px;
         text-align: center;
-        color: rgb(58, 38, 19);
+        color: $textc;
         @media only screen and (min-width: 601px) and (max-width:1024px){
             font-size: 50px;}
           @media only screen and (max-width: 600px) {
@@ -22,11 +23,11 @@ header{
     }
     /* estilos para box de mi lista de spotify*/ 
     .spotify{
-        margin: 10px 10px 10px 900px;
+        margin: 10px 10px 10px 1000px;
         padding: 5px;
-        width: 30%;
+        width: 20%;
         position: fixed;
-        
+
         @media only screen and (min-width: 601px) and (max-width:1024px){
             display: none;}
         @media only screen and (max-width: 600px) {

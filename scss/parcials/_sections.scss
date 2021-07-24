@@ -1,11 +1,12 @@
 @import "../base/extends";
+@import "../base/variables";
 /*estilos para los titulos h2 de todas mis secciones y sus media queries*/
 
 h2{
-    color: rgb(135, 88, 44);
+    color: $titlecolor;
     margin: 10px;
     padding: 10px;
-    font-family: 'Bebas Neue', cursive;;
+    font-family: $fontf1;
     font-size: 60px;
     text-align: center;
 
@@ -151,9 +152,9 @@ h2{
   border: solid 1px;
   padding: 50px;
   margin: 10px auto;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Roboto Mono', monospace;
-  background-color: rgb(230, 203, 178);
+  font-family: $fontf1;
+  font-family: $fontf2;
+  background-color: $bcsec;
   font-size: 20px;
   border-radius: 15px;
   margin-left: 350px;
@@ -169,10 +170,11 @@ h2{
     font-size: 18px;
   }
 }
+
 /*estilos para seccion sobre nosotros*/
 #about{
   div{
-    background-color:rgb(230, 203, 178);
+    background-color:$bcsec;
     width: 800px;
     margin: 20px;
     display: flex;
@@ -198,8 +200,8 @@ h2{
     
     p{
       margin: 10px;
-      font-family: 'Bebas Neue', cursive;
-      font-family: 'Roboto Mono', monospace;
+      font-family: $fontf1;
+      font-family: $fontf2;
       font-size: 20px;
       text-align: center;
       @media only screen and (max-width: 600px) {
@@ -237,4 +239,47 @@ h2{
     
   }
 }
+}
+/* estilos para la seccion contactanos*/
+#formulario{
+  margin: 20px;
+  form{
+    background-color:$bcsec;
+    margin: 10px;
+    font-family: $fontf1;
+    font-family: $fontf2;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+      
+      }
+    @media only screen and (min-width: 601px) and (max-width:1024px){
+      font-size: 12px;
+    }
+    .bc{
+      background-color:  $boxbc;
+
+    }
+    .imput{width: 70px;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: $bcsec;
+      @media only screen and (max-width: 600px) {
+        font-size: 12px;
+        
+        }
+      @media only screen and (min-width: 601px) and (max-width:1024px){
+        font-size: 12px;
+
+    }
+  }
+}
+
 }
